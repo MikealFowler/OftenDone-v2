@@ -3,7 +3,7 @@ import "./global.css";
 
 
 export const metadata = {
-  title: "OfetenDone Services",
+  title: "OftenDone Services",
   description: "OftenDone Services offers reliable, modern solutions for your everyday needs — from Errand running to Technology help.",
 };
 
