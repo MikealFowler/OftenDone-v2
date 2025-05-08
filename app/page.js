@@ -89,7 +89,7 @@ export default function Home() {
           </div>
           <div>
             <h3 className="font-semibold mb-2 text-lg">2. Get Matched Fast</h3>
-            <p className="text-gray-600">We'll confirm your request and schedule help ASAP.</p>
+            <p className="text-gray-600">We will confirm your request and schedule help ASAP.</p>
           </div>
           <div>
             <h3 className="font-semibold mb-2 text-lg">3. Relax, It’s Done</h3>
