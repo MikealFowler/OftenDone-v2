@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { FiTool, FiSun, FiSmartphone, FiShoppingCart, FiAlertTriangle, FiUserCheck, FiMapPin, FiHeart, FiLayers } from 'react-icons/fi';
 
 export default function Services() {
@@ -42,9 +43,9 @@ export default function Services() {
             <div className="text-center mt-16 mb-16">
                 <h3 className="text-2xl font-bold mb-4 text-green-700">Need Help with Something?</h3>
                 <p className="mb-6 text-gray-700">Let us know what you need. We’re fast, friendly, and flexible.</p>
-                <a href="/contact" className="inline-block bg-green-700 text-white px-6 py-3 rounded hover:bg-green-800 transition">
+                <Link href="/contact" className="inline-block bg-green-700 text-white px-6 py-3 rounded hover:bg-green-800 transition">
                     Get in Touch
-                </a>
+                </Link>
             </div>
             <footer className="text-center py-2 text-gray-500 text-sm bg-gray-50  bottom-0 left-0 w-full">
                 &copy; 2024 OftenDone. All rights reserved.

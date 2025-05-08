@@ -1,5 +1,6 @@
 "use client";
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function ContactPage() {
     const [formStatus, setFormStatus] = useState(null);
@@ -39,16 +40,16 @@ export default function ContactPage() {
             <nav className="bg-white shadow px-6 py-4 flex justify-between items-center fixed top-0 left-0 w-full z-50">
                 <div className="text-3xl font-bold text-green-700">OftenDone</div>
                 <div className="space-x-4">
-                    <a href="/" className="text-gray-700 hover:text-green-700">Home</a>
-                    <a href="/services" className="text-gray-700 hover:text-green-700">Services</a>
-                    <a href="/contact" className="text-gray-700 hover:text-green-700">Contact</a>
+                    <Link href="/" className="text-gray-700 hover:text-green-700">Home</Link>
+                    <Link href="/services" className="text-gray-700 hover:text-green-700">Services</Link>
+                    <Link href="/contact" className="text-gray-700 hover:text-green-700">Contact</Link>
                 </div>
             </nav>
             <main className="font-sans text-gray-800 pt-[100px] pb-16 px-6 max-w-6xl mx-auto">
 
                 <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">Get in Touch</h1>
                 <p className="mb-10 text-center">
-                    Whether you need help or have a question, we're here for you.
+                    Whether you need help or have a question, we&apos;re here for you.
                 </p>
 
                 <div className="mt-10 flex flex-col lg:flex-row gap-6">
@@ -110,11 +111,11 @@ export default function ContactPage() {
                             </div>
                             <div>
                                 <h3 className="text-lg font-semibold text-gray-800">How do I book a service?</h3>
-                                <p className="text-gray-700">Just head to our contact page and fill out the form. We'll get back to you within a few hours.</p>
+                                <p className="text-gray-700">Just head to our contact page and fill out the form. We&apos;ll get back to you within a few hours.</p>
                             </div>
                             <div>
                                 <h3 className="text-lg font-semibold text-gray-800">Can I request the same person each time?</h3>
-                                <p className="text-gray-700">Absolutely. Just let us know during booking and we'll do our best to accommodate.</p>
+                                <p className="text-gray-700">Absolutely. Just let us know during booking and we&apos;ll do our best to accommodate.</p>
                             </div>
                         </div>
                     </section>

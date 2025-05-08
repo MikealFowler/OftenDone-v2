@@ -1,5 +1,6 @@
 'use client';
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 import { FiSun, FiSmartphone, FiShoppingCart } from 'react-icons/fi';
 
 export default function Home() {
@@ -16,9 +17,9 @@ export default function Home() {
       <nav className="bg-white shadow px-6 py-4 flex justify-between items-center fixed top-0 left-0 w-full z-50">
         <div className="text-3xl font-bold text-green-700">OftenDone</div>
         <div className="space-x-4">
-          <a href="/" className="text-gray-700 hover:text-green-700">Home</a>
-          <a href="/services" className="text-gray-700 hover:text-green-700">Services</a>
-          <a href="/contact" className="text-gray-700 hover:text-green-700">Contact</a>
+          <Link href="/" className="text-gray-700 hover:text-green-700">Home</Link>
+          <Link href="/services" className="text-gray-700 hover:text-green-700">Services</Link>
+          <Link href="/contact" className="text-gray-700 hover:text-green-700">Contact</Link>
         </div>
       </nav>
       {/* Hero Section */}
@@ -124,15 +125,15 @@ export default function Home() {
         <h2 className="text-2xl md:text-3xl font-bold mb-10">What Our Clients Are Saying</h2>
         <div className="space-y-10">
           <blockquote>
-            <p className="italic">"Often Done has been a lifesaver! I can't imagine managing my daily tasks without their support."</p>
+            <p className="italic">&quot;Often Done has been a lifesaver! I can&apos;t imagine managing my daily tasks without their support.&quot;</p>
             <p className="mt-2 font-medium">- Susan North</p>
           </blockquote>
           <blockquote>
-            <p className="italic">"They helped my elderly parents with meal prep and transportation. Truly a blessing."</p>
+            <p className="italic">&quot;They helped my elderly parents with meal prep and transportation. Truly a blessing.&quot;</p>
             <p className="mt-2 font-medium">- Paul Gouveia</p>
           </blockquote>
           <blockquote>
-            <p className="italic">"Tech setup was easy and stress-free thanks to Often Done."</p>
+            <p className="italic">&quot;Tech setup was easy and stress-free thanks to Often Done.&quot;</p>
             <p className="mt-2 font-medium">- Chris Walsh</p>
           </blockquote>
         </div>
