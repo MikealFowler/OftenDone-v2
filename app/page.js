@@ -28,7 +28,7 @@ export default function Home() {
         <p className="text-sm uppercase tracking-wider mb-2 text-green-200">
           Trusted by families across Halifax
         </p>
-        <p className="text-lg md:text-xl mb-6">Helping you handle life’s everyday challenges with care and consistency.</p>
+        <p className="text-lg md:text-xl mb-6">Helping you handle life&apos;s everyday challenges with care and consistency.</p>
         <a
           href="/contact"
           className="inline-block bg-white text-green-600 font-semibold px-6 py-3 rounded hover:bg-gray-200 transition"

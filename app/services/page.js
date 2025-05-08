@@ -7,9 +7,9 @@ export default function Services() {
             <nav className="bg-white shadow px-6 py-4 flex justify-between items-center fixed top-0 left-0 w-full z-50">
                 <div className="text-3xl font-bold text-green-700">OftenDone</div>
                 <div className="space-x-4">
-                    <a href="/" className="text-gray-700 hover:text-green-700">Home</a>
-                    <a href="/services" className="text-gray-700 hover:text-green-700">Services</a>
-                    <a href="/contact" className="text-gray-700 hover:text-green-700">Contact</a>
+                    <Link href="/" className="text-gray-700 hover:text-green-700">Home</Link>
+                    <Link href="/services" className="text-gray-700 hover:text-green-700">Services</Link>
+                    <Link href="/contact" className="text-gray-700 hover:text-green-700">Contact</Link>
                 </div>
             </nav>
             <section className="bg-gray-50 pt-[100px] pb-16 px-6">
@@ -42,7 +42,7 @@ export default function Services() {
             </section>
             <div className="text-center mt-16 mb-16">
                 <h3 className="text-2xl font-bold mb-4 text-green-700">Need Help with Something?</h3>
-                <p className="mb-6 text-gray-700">Let us know what you need. We’re fast, friendly, and flexible.</p>
+                <p className="mb-6 text-gray-700">Let us know what you need. We&apos;re fast, friendly, and flexible.</p>
                 <Link href="/contact" className="inline-block bg-green-700 text-white px-6 py-3 rounded hover:bg-green-800 transition">
                     Get in Touch
                 </Link>
